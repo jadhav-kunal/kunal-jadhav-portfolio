@@ -203,7 +203,7 @@ const App: React.FC = () => {
 
 
       {/* SECTION 2: EXPERIENCE */}
-      <section ref={sectionRefs[2]} className="snap-section relative w-full h-screen flex flex-col md:flex-row border-t">
+      <section ref={sectionRefs[1]} className="snap-section relative w-full h-screen flex flex-col md:flex-row border-t">
         {experience.map((exp, idx) => (
           <div
             key={exp.id}
@@ -224,7 +224,7 @@ const App: React.FC = () => {
       </section>
 
       {/* SECTION 3: PROJECTS */}
-      <section ref={sectionRefs[1]} className="snap-section relative w-full h-screen flex flex-col md:flex-row border-t">
+      <section ref={sectionRefs[2]} className="snap-section relative w-full h-screen flex flex-col md:flex-row border-t">
         {projects.map((project, idx) => (
           <div
             key={project.id}
