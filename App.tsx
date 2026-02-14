@@ -46,7 +46,7 @@ const App: React.FC = () => {
 
   const [activeSection, setActiveSection] = useState(0);
   const sectionRefs = [useRef<HTMLElement>(null), useRef<HTMLElement>(null), useRef<HTMLElement>(null), useRef<HTMLElement>(null)];
-  const sectionTitles = ['intro', 'projects', 'experience', 'contact'];
+  const sectionTitles = ['intro', 'experience', 'projects', 'contact'];
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
