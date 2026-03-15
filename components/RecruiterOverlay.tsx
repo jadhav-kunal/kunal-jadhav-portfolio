@@ -47,8 +47,8 @@ const RecruiterOverlay: React.FC<RecruiterOverlayProps> = ({ isOpen, onClose }) 
 
             {/* Block 2: Education */}
             <div className="mb-10 space-y-1.5">
-              <p className="text-[14px] md:text-[15px]">MS Computer Science — Arizona State University</p>
-              <p className="text-[14px] md:text-[15px]">BE Computer Science — University of Mumbai</p>
+              <p className="text-[14px] md:text-[15px]">MS Computer Science - Arizona State University</p>
+              <p className="text-[14px] md:text-[15px]">BE Computer Science - University of Mumbai</p>
             </div>
 
             {/* Block 3: Core Stack */}
@@ -84,7 +84,7 @@ const RecruiterOverlay: React.FC<RecruiterOverlayProps> = ({ isOpen, onClose }) 
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-10 text-[13px] opacity-60">
               <a href="https://drive.google.com/file/d/18YoLinC-EaZN5nnkH5_UT2p13lGEnH4I/view?usp=sharing" target="_blank" className="hover:underline hover:opacity-100 transition-all cursor-pointer">resume</a>
               <a href="https://github.com/jadhav-kunal" target="_blank" className="hover:underline hover:opacity-100 transition-all cursor-pointer">github</a>
-              <a href="https://leetcode.com/kunal" target="_blank" className="hover:underline hover:opacity-100 transition-all cursor-pointer">leetcode</a>
+              <a href="https://leetcode.com/jadhav-kunal" target="_blank" className="hover:underline hover:opacity-100 transition-all cursor-pointer">leetcode</a>
               <a href="https://linkedin.com/in/jadhav-kunal" target="_blank" className="hover:underline hover:opacity-100 transition-all cursor-pointer">linkedin</a>
             </div>
 
